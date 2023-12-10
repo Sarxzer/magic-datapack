@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "requirements": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:ender_eye"
+            ]
+          },
+            "player": {
+                "nbt": "{Tags:[\"cooldown\"]}"
+            }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "requirements"
+      ]
+    ]
+  }
+  

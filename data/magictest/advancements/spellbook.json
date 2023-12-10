@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:book",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": "Enchanted",
+    "description": "Get your personal spellbook!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "magictest:root",
+  "criteria": {
+    "None": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+      }
+  },
+  "sends_telemetry_event": true
+}

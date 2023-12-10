@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:fire_charge"
+    },
+    "title": "Like Ghast",
+    "description": "Shoot your first fireball",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "magictest:spellbook",
+  "criteria": {
+    "None": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+      }
+  },
+  "sends_telemetry_event": true
+}

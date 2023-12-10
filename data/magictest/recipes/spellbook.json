@@ -1,0 +1,18 @@
+{
+    "format_version": "1.20.0",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " A ",
+        "AAA",
+        " A "
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

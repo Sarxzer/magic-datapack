@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.0",
+    "criteria": {
+        "crafted": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "magictest:spellbook"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "crafted"
+        ]
+    ],
+    "rewards": {
+        "function": "magictest:recipes/spellbook"
+    }
+}

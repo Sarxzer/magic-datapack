@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stick",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": "Wizard Blizard",
+      "description": "Be a wizard by making the ritual.",
+      "frame": "challenge",
+      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "type": "minecraft:player",
+            "nbt": "{Tags:[\"wizard\"]}"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "requirement"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }
